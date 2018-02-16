@@ -1,0 +1,40 @@
+Body{
+background-image: url("../images/cielo_inicial.jpg");
+}
+
+h1{
+    font-size: 5em;
+   font-family: 'Chau Philomene One',
+   sans-serif;
+}
+
+.finder{
+    margin:2em;
+}
+
+form{
+    background-color: orange;
+    height: 4em;
+    padding-top:1.3em;
+}
+
+.btn-md{
+    background-color: rgb(150, 219, 245);
+    margin-left: 1em;
+}
+
+ul li{
+    
+    font-size: 2em;
+    line-height: 2.3em;
+}
+
+.day{
+    border: 1px solid cornflowerblue;
+    background-color: rgb(150, 219, 245);
+    padding-bottom: 2em;
+}
+
+.title{
+    font-size: 3.5em;
+}

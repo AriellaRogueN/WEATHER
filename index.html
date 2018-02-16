@@ -5,18 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Chau+Philomene+One" rel="stylesheet">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div class="tiempo">
-        <form action="" id="search-">
-            <label for="city-search"></label>
-            <input id="city-search" type="text" name="search-city" placeholder="e.g. Santiago, Chile" required>
-            <input id="submit-btn" type="submit" value="Buscar">
-        </form>
-
+    <h1 class="text-center">Witchcraft weather</h1>
+    <div class="container">
+        <div class="row finder ">
+            <div class="col-md-offset-4 col-md-5 col-sm-6 col-xs-6 text-center form">
+            <div class="wheater">
+                <form action="" id="search">
+                    <label for="city-search">
+                      <input id="city-search" type="text" name="search-city" placeholder="e.g. Santiago, Chile" required>
+                      <button type="button" id="btn-search" class="btn btn-default btn-md">Predict</button>
+                    </label>
+                </form>
+            </div>
+        </div>
+    </div>
+<div class="container bewitched ">
+        
+    </div>
+    
         
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNq_UtOGDu7Veg1yGzIgG4nJJ6Umv6o8M&libraries=places,geometry"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
