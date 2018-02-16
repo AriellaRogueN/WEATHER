@@ -37,7 +37,8 @@ $(document).ready(function () {
                       "<div class='col-md-offset-3 col-md-6 day'>" +
                       "<div class='section-content text-center'>" +
                       "<h1 class='section-header title'>" + city + "</h1>" +
-                      "<h2>" + summary + "</h2>" + "</div>" +
+                      "<h2>" + temperature + "F°</h2>" + 
+                      "<h3>" + summary + "</h3>" + "</div>" +
                       "<ul class='pull-left'>" +
                       "<li>Humidity:" + humidity + "</li>" +
                       "<li>Uv index:" + uv + "</li>" +
