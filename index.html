@@ -12,15 +12,17 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <h1 class="text-center">Witchcraft weather</h1>
+    <header>
+       <h1>Witchcraft Weather</h1>
+    </header> 
     <div class="container">
         <div class="row finder ">
-            <div class="col-md-offset-4 col-md-5 col-sm-6 col-xs-6 text-center form">
-            <div class="wheater">
+            <div class="col-md-offset-4 col-md-4 col-sm-12 col-xs-12 text-center form">
+             
                 <form action="" id="search">
                     <label for="city-search">
                       <input id="city-search" type="text" name="search-city" placeholder="e.g. Santiago, Chile" required>
-                      <button type="button" id="btn-search" class="btn btn-default btn-md">Predict</button>
+                      <button type="button" id="btn-search" class="btn btn-default btn-md">Search City</button>
                     </label>
                 </form>
             </div>
@@ -28,6 +30,13 @@
     </div>
 <div class="container bewitched ">
         
+    </div>
+
+    <div class = "container instModal">
+      <div class = "modal fade" data-modal-color = "" id = "modalColor" data-backdrop = "static" data-keyboard = "false" tabindex = "-1" role = "dialog" aria-hidden = "true">
+        <div class="modal-dialog">
+        </div>
+      </div>
     </div>
     
         
@@ -38,3 +47,4 @@
     <script src="assets/js/app.js"></script>    
 </body>
 </html>
+
