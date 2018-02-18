@@ -56,9 +56,10 @@ ul li{
     font-size: 3.5em;
 }
 
-.btn-weekly{
+#btn-weekly{
     background-color: rgb(70, 137, 182);
     color:white;
+    margin-top: 1em
 }
 
 .section-content h2{
@@ -84,7 +85,14 @@ ul li{
     list-style-image: url("../images/favicon.ico")
 }
 
- .btn-weekly{
-    margin-top: 1em;
-    
+.bs-modal-sm {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    bottom: 0;
+    left: 0;
+    z-index: 10040;
+    overflow: auto;
+    overflow-y: auto;
 }
+ 
