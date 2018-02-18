@@ -20,7 +20,6 @@ $(document).ready(function () {
             success: function (data) {
                 console.log(data);
                 const temperature = data.daily.data[0].temperatureMax
-                const newTemperature = temperature - 32 / 1.8
                 console.log(temperature)
                 const summary = data.daily.data[0].summary
                 console.log(summary)
@@ -40,7 +39,7 @@ $(document).ready(function () {
                         "<div class='col-md-offset-3 col-md-6 col-sm-12 col-xs-12 day'>" +
                         "<div class='section-content text-center'>" +
                         "<h1 class='section-header title'>" + city + "</h1>" +
-                        "<h2>" + newTemperature + "&nbsp" + "°C</h2>" +
+                        "<h2>" + ((temperature - 32) / 1.8).toFixed() + "&nbsp" + "°C</h2>" +
                         "<h3>" + summary + "</h3>" + "</div>" +
                         "<ul class='pull-left'>" +
                         "<li>Humidity:" + "&nbsp" + humidity + "</li>" +
