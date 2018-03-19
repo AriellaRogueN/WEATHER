@@ -1,126 +1,116 @@
 
-body{
+body {
     background-image: url("../images/cielo_inicial.jpg");
-    width:100%;
+    width: 100%;
     background-size: cover;
     height: 100vh;
     overflow-x: hidden;
-    }
+}
 
-header{
+header {
     text-align: center;
 }
 
-header h1{
-    color:lightskyblue;
+header h1 {
+    color: lightskyblue;
     margin-left: 0.5em;
     opacity: 0.5
 }
 
-header h1:hover{
+header h1:hover {
     color: white;
-    opacity:0.5;
+    opacity: 0.5;
 }
 
-h1{
-   font-size: 7em;
-   font-family: 'Chau Philomene One',
-   sans-serif;
+h1 {
+    font-size: 7em;
+    font-family: 'Chau Philomene One', sans-serif;
 }
 
-.finder{
-    margin:2em;
+.finder {
+    margin: 2em;
     text-align: center;
 }
 
-
-      
-
-form{
+form {
     margin-top: 2em;
-    background-color:#ffc400;
+    background-color: #ffc400;
     height: 6.5em;
-    padding-top:2em;
+    padding-top: 2em;
     border-radius: 1em;
 }
 
-input{
+input {
     height: 3em;
 }
 
-.btn-md{
+.btn-md {
     background-color: rgb(103, 180, 224);
     margin-left: 1em;
     border-radius: 0.5em;
 }
 
-ul li{
-    
+ul li {
     font-size: 2em;
     line-height: 2.3em;
 }
 
-.day{
+.day {
     border: 1px solid cornflowerblue;
-    background : linear-gradient(to right, rgba(179, 220, 237, 1) 0%, rgba(41, 184, 229, 1) 50%, rgba(188, 224, 238, 1) 100%);
+    background: linear-gradient(to right, rgba(179, 220, 237, 1) 0%, rgba(41, 184, 229, 1) 50%, rgba(188, 224, 238, 1) 100%);
     padding-bottom: 2em;
 }
 
-.title{
+.title {
     font-size: 3.5em;
 }
 
-#btn-weekly{
+#btn-weekly {
     background-color: rgb(70, 137, 182);
-    color:white;
+    color: white;
     margin-top: 1em
 }
 
-.section-content h2{
+.section-content h2 {
     background-color: rgb(70, 137, 182);
     font-size: 3em;
-    color:white;
+    color: white;
 }
 
-.section-content h3{
+.section-content h3 {
     background-color: rgb(70, 137, 182);
     font-weight: bolder;
     font-size: 2.2em;
     color: #ffc400;
 }
 
-ul{
-    
+ul {
     margin-top: 1em;
 }
 
-ul li{
+ul li {
     font-size: 2em;
     list-style-image: url("../images/favicon.ico")
 }
 
-.modal-header{
+.modal-header {
     background-color: #f7ca39;
 }
 
-.modal-body{
+.modal-body {
     background-color: blue;
     color: white;
     font-weight: bolder;
 }
 
 @media screen and (max-width: 761px) {
-
-h1{
-    font-size: 4em;
-}
-
+    h1 {
+        font-size: 4em;
+    }
 }
 
 @media screen and (max-width: 398px) {
-
-#btn-search{
-    margin-left: -1em;
-}
-
+    #btn-search {
+        margin-left: -1em;
+    }
 }
