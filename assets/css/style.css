@@ -1,5 +1,14 @@
-Body{
-background-image: url("../images/cielo_inicial.jpg");
+
+body{
+    background-image: url("../images/cielo_inicial.jpg");
+    width:100%;
+    background-size: cover;
+    height: 100vh;
+    overflow-x: hidden;
+    }
+
+header{
+    text-align: center;
 }
 
 header h1{
@@ -14,14 +23,18 @@ header h1:hover{
 }
 
 h1{
-   font-size: 5em;
+   font-size: 7em;
    font-family: 'Chau Philomene One',
    sans-serif;
 }
 
 .finder{
     margin:2em;
+    text-align: center;
 }
+
+
+      
 
 form{
     margin-top: 2em;
@@ -34,6 +47,7 @@ form{
 input{
     height: 3em;
 }
+
 .btn-md{
     background-color: rgb(103, 180, 224);
     margin-left: 1em;
@@ -85,14 +99,28 @@ ul li{
     list-style-image: url("../images/favicon.ico")
 }
 
-.bs-modal-sm {
-    position: absolute;
-    top: 50px;
-    right: 100px;
-    bottom: 0;
-    left: 0;
-    z-index: 10040;
-    overflow: auto;
-    overflow-y: auto;
+.modal-header{
+    background-color: #f7ca39;
 }
- 
+
+.modal-body{
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 761px) {
+
+h1{
+    font-size: 4em;
+}
+
+}
+
+@media screen and (max-width: 398px) {
+
+#btn-search{
+    margin-left: -1em;
+}
+
+}
